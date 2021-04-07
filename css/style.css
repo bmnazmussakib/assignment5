@@ -43,6 +43,7 @@ body {
 
 section{
     margin: 20px 0;
+    border: 1px solid lightcoral;
 }
 
 .container {
@@ -50,6 +51,10 @@ section{
     border: 1px solid blueviolet;
     margin: 0 auto;
     overflow: hidden;
+}
+
+.container3,.container4,.container5,.container6,.container7{
+    width: 75%;
 }
 
 /* Common End */
@@ -126,18 +131,121 @@ header{
 
 
 /* Weekend Start */
+.weekend {
+    
+}
+
+.container3 {
+    
+}
+
+.w-content {
+}
+
+.w-content h5{
+    text-transform: uppercase;
+    font-family: 'ubuntu-light';
+}
+
+.w-content h2{
+    font-family: 'PlayfairDisplay-Regular', serif;
+}
+
+.w-content p{
+}
 /* Weekend End */
 
 
 /* Comment Start */
+.comment {
+   
+}
+
+.container4 {
+}
+
+.comm-content {
+}
+
+.comm-content h5{
+    text-transform: uppercase;
+    font-family: 'ubuntu-light';
+}
 /* Comment End */
 
 
 /* Card 1 Start */
+.card-one {
+}
+
+.container5 {
+}
+
+.card-content {
+}
+
+.card-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.card {
+    width: 48%;
+    float: left;
+}
+
+.card h5{
+    text-transform: uppercase;
+    font-family: 'ubuntu-light';
+    display: inline-block;
+}
+
+.card h2{
+    width: 90%;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.card p{
+    text-align: justify;
+    width: 90%;
+    margin-right: 0;
+}
+
+.card-img {
+}
+
+.card-img img{
+    width: 100%;
+}
+
+.coffee{
+    margin-left: 40px;
+}
+
+.exploring{
+    margin-left: 40px;
+}
 /* Card 1 End */
 
 
 /* Subscription Start */
+.subscription {
+}
+
+.container7 {
+}
+
+.sub-content {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.subscription-input {
+    border: transparent;
+    border-bottom: 1px solid #cccccc;
+    width: 30%;
+}
 /* Subscription End */
 
 
@@ -146,6 +254,26 @@ header{
 
 
 /* Load More Start */
+.load-more {
+}
+
+.container8 {
+    
+}
+
+.l-content {
+    padding: 60px 0;
+}
+
+.l-content p {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.l-content p a{
+    
+}
+
 /* Load More End */
 
 
