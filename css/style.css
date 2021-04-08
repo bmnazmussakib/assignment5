@@ -231,6 +231,7 @@ header{
 
 /* Subscription Start */
 .subscription {
+    background-color: #f0f0f0;
 }
 
 .container7 {
@@ -266,16 +267,52 @@ header{
 }
 
 .l-content p {
-    width: 10%;
+    width: 200px;
     margin: 0 auto;
 }
 
 .l-content p a{
-    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #626262;
+    border: 1px solid #626262;
+    padding: 20px 30px;
+}
+
+.l-content p a:hover{
+    background-color: #626262;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 20px 30px;
 }
 
 /* Load More End */
 
 
 /* Footer Start */
+footer{
+    background-color: #f0f0f0;
+}
+
+.container4 {
+}
+
+.f-content {
+}
+
+.terms {
+    float: left;
+    width: 50%;
+}
+
+.social {
+    float: right;
+}
+
+.follow {
+}
+
+.social {
+    float: right;
+}
 /* Footer End */
