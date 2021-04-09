@@ -252,6 +252,7 @@ header{
 /* Subscription Start */
 .subscription {
     background-color: #f0f0f0;
+    position: relative;
 }
 
 .container7 {
@@ -260,6 +261,7 @@ header{
 .sub-content {
     text-align: center;
     padding: 20px 0px;
+    
 }
 
 .sub-content h2{
@@ -268,10 +270,17 @@ header{
     font-weight: 400;
 }
 
+.sub-content img{
+    position: absolute;
+    right: 37%;
+    top: 70%;
+}
+
+
 .subscription-input {
     border: none;
-    border-bottom: 3px solid #cccccc;
-    width: 30%;
+    border-bottom: 2px solid #cccccc;
+    width: 36%;
     background-color: #f0f0f0;
     padding: 10px 0;
     font-family: 'PlayfairDisplay-Regular', serif;
